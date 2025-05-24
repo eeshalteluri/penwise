@@ -63,19 +63,19 @@ const SmallCardsData = [
         title: "Emails That Actually Get Read",
         description: "Craft sbject lines, body copy, and CTAS that boost open rates and clicks",
         icon: "/images/FeatureCard/email.png",
-        alt: "Small Card 1",
+        alt: "email",
     },
     {
         title: "Smart Study Support",
         description: "Draft essays, summarize readings, polish your thesis, with AI that respects your voice.",
-        icon: "public/images/FeatureCard/study-support.png",
-        alt: "Small Card 2",
+        icon: "/images/FeatureCard/study-support.png",
+        alt: "stdy-support",
     },
     {
         title: "Write Long-Form That Flows",
         description: "Generate outlines, intros and full articles that sound like you, only faster and smarter.",
         icon: "/images/FeatureCard/long-form-content.png",
-        alt: "Small Card 3",
+        alt: "long-form-content",
     },
 ]
 
@@ -319,8 +319,8 @@ try {
       <!-- Navbar Section-->
         <!-- Mobile Toggle -->
         <div class="sm:hidden flex justify-end px-4 mt-4 items-center gap-2 relative z-50">
-            <img id="menu-toggle" src="public/images/Navbar/menu.png" alt="menu" class="w-[30px] h-[30px] cursor-pointer"/>
-            <img id="menu-close" src="public/images/Navbar/cancel.png" alt="menu" class="hidden w-[30px] h-[30px] cursor-pointer"/>    </div>
+            <img id="menu-toggle" src="/images/Navbar/menu.png" alt="menu" class="w-[30px] h-[30px] cursor-pointer"/>
+            <img id="menu-close" src="/images/Navbar/cancel.png" alt="menu" class="hidden w-[30px] h-[30px] cursor-pointer"/>    </div>
 
         <!-- Absolute Mobile Menu -->
         <div id="mobile-menu" class="hidden sm:hidden absolute top-10 right-10 left-10 flex flex-col items-center gap-2 bg-secondary text-white p-4 rounded-lg shadow-lg z-40">
